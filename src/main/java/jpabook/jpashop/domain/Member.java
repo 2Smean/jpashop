@@ -22,7 +22,4 @@ public class Member {
 
     @OneToMany
     private List<Order> orders = new ArrayList<>();
-
-
-
 }
