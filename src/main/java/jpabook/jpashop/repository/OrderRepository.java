@@ -101,6 +101,7 @@ public class OrderRepository {
                         " join fetch o.delivery d", Order.class
         ).getResultList();
     }
+
     /**
      * QueryDSL 로 구성한 코드
      */
