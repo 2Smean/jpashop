@@ -36,7 +36,7 @@ public class MemberApiController {
     @Data
     @AllArgsConstructor
     static class Result<T> { //감싸서 반환하여 유연성을 높인다.
-        private T date;
+        private T data;
     }
 
     @Data
